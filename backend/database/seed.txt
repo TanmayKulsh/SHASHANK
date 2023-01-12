@@ -1,0 +1,13 @@
+create database tanmaydb;
+
+use tanmaydb;
+
+create table emp(
+    token int primary key auto_increment,
+    empid varchar(25),
+    empname varchar(25)
+);
+
+insert into emp value(1,"tanmay@gmail.com","Tanmay");
+
+create procedure updateemp()
